@@ -1,4 +1,3 @@
-
 import Navbar from "@/components/Navbar";
 import { Button } from "@/components/ui/button";
 import { Facebook, Instagram, Linkedin, Twitter, Youtube } from 'lucide-react';
@@ -53,7 +52,6 @@ const Index = () => {
               <p className="text-gray-600 mb-6">
                 We're passionate about creating beautiful, functional websites that help businesses grow. Our templates are designed to be easily customizable and user-friendly.
               </p>
-              <Button className="bg-violet-600 hover:bg-violet-700">Learn More</Button>
             </div>
             <div className="bg-gray-200 h-64 rounded-lg fade-in"></div>
           </div>

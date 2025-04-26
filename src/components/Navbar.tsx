@@ -1,7 +1,6 @@
 
 import { useState } from 'react';
 import { Menu } from 'lucide-react';
-import { Button } from "@/components/ui/button";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -17,10 +16,9 @@ export default function Navbar() {
           {/* Desktop Navigation */}
           <div className="hidden md:block">
             <div className="ml-10 flex items-center space-x-4">
-              <a href="#features" className="text-gray-700 hover:text-violet-600 px-3 py-2">Features</a>
+              <a href="#features" className="text-gray-700 hover:text-violet-600 px-3 py-2">Pricing</a>
               <a href="#about" className="text-gray-700 hover:text-violet-600 px-3 py-2">About</a>
               <a href="#contact" className="text-gray-700 hover:text-violet-600 px-3 py-2">Contact</a>
-              <Button className="bg-violet-600 hover:bg-violet-700">Get Started</Button>
             </div>
           </div>
 
@@ -39,10 +37,9 @@ export default function Navbar() {
         {isOpen && (
           <div className="md:hidden">
             <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-              <a href="#features" className="block text-gray-700 hover:text-violet-600 px-3 py-2">Features</a>
+              <a href="#features" className="block text-gray-700 hover:text-violet-600 px-3 py-2">Pricing</a>
               <a href="#about" className="block text-gray-700 hover:text-violet-600 px-3 py-2">About</a>
               <a href="#contact" className="block text-gray-700 hover:text-violet-600 px-3 py-2">Contact</a>
-              <Button className="w-full bg-violet-600 hover:bg-violet-700 mt-4">Get Started</Button>
             </div>
           </div>
         )}
