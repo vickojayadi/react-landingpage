@@ -1,5 +1,6 @@
 
 import Navbar from "@/components/Navbar";
+import { Button } from "@/components/ui/button";
 import { Facebook, Instagram, Linkedin, Twitter, Youtube } from 'lucide-react';
 
 const Index = () => {
